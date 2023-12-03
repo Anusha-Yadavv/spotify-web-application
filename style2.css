@@ -38,7 +38,7 @@ body {
     width: 280px;
     padding: 20px;
     background-color: #000000;
-    height: 450px;
+    height: 900px;
 }
 
 .icon_container {
@@ -110,8 +110,7 @@ body {
 
 .hero-section {
     flex-grow: 1;
-    /* overflow-y: auto; */
-    padding-left: 280px;
+    overflow-y: auto;
 
 }
 
@@ -259,10 +258,10 @@ footer {
 
 }
 
-.album-profile-container {
-    padding-top: 70px;
+/* .album-profile-container { */
+    /* padding-top: 70px; 
 
-}
+}*/
 
 .heading-container {
     display: grid;
