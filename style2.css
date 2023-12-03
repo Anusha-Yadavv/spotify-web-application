@@ -40,7 +40,7 @@ body {
     background-color: #000000;
 
 
-    height: 100%;
+    height: 80%;
 
     font-family: "Roboto";
     font-size: 20px;
@@ -103,7 +103,7 @@ body {
 }
 
 .install_app {
-    padding-top: 250px;
+    padding-top: 100px;
 }
 
 .fav_link {
@@ -241,6 +241,9 @@ footer {
     font-family: "Roboto";
     font-size: 20px;
     color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .playing_div {
@@ -261,7 +264,7 @@ footer {
 /* css 2 */
 
 .album-profile-container {
-    padding-top: 190px;
+    padding-top: 130px;
 
 }
 
