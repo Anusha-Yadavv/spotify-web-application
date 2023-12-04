@@ -20,7 +20,8 @@ body {
 
 .page-container {
     display: flex;
-    position: relative
+
+
 }
 
 
@@ -33,24 +34,39 @@ body {
     padding: 20px;
     width: 280px;
 
+    position: fixed;
+    /* width: 250px; */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    /* right: 0; */
+    /* background: #111; */
+    /* padding-top: 50px; */
+
 
 
 
 }
 
-.nav-containers {
+/*.page-navbar a:hover{
+    color: #fff;
+    margin-left: 20px;
+    transition: 0.4s;
+}
+*/
+/* .nav-containers { 
     position: fixed;
     z-index: 10;
 
 
-}
+/* } */
 
 
 .sidebar {
-    width: 280px;
-    padding: 20px;
+    /* width: 280px; */
+    /* padding: 20px; */
     background-color: #000000;
-    height: 800px;
+    /* height: 800px; */
 
 }
 
@@ -122,7 +138,7 @@ body {
     flex-grow: 1;
     overflow-y: auto;
     /* height: 100vh; */
-    /* padding-left: 280px; */
+    padding-left: 280px;
 }
 
 .button {
@@ -181,24 +197,27 @@ body {
 
 }
 
-.navigation_links_container img:hover {
+/*.navigation_links_container img:hover {
     transform: scale(1.1) translate(-3%, -3%);
 
 
+}*/
+.icon_container:hover {
+    transition: 0.3s;
+    background-color: #191f19;
+    color: white;
+    border: 1px solid #0A0A0A;
+
 }
 
-.icon a:hover {
-    transition: width 2s;
-    background-color: #282828;
+.favourite_container div:hover {
+    border: 1px solid #816a6a;
     border-radius: 10px;
+    text-align: center;
+    background-color: #191f19;
 
 
 
-
-}
-
-.hero-container {
-    background-color: #181818;
 }
 
 .spotify_logo:hover {
@@ -208,7 +227,23 @@ body {
 
 }
 
-.button:hover {
+.navigation_links_container div:hover {
+    border: 1px solid #816a6a;
+    border-radius: 10px;
+    background-color: #191f19;
+
+
+}
+
+.install_app div:hover {
+    border: 1px solid #816a6a;
+    border-radius: 10px;
+    background-color: #191f19;
+
+
+}
+
+footer img:hover {
     transform: scale(1.1) translate(-3%, -3%);
 
 
@@ -220,33 +255,20 @@ body {
 
 }
 
+.heading:hover {
+    transform: scale(1.1) translate(-3%, -3%);
+    cursor: pointer;
+
+
+}
+
+
+
 .hero-box:hover {
     transform: scale(1.1) translate(-3%, -3%);
 
 }
 
-footer img:hover {
-    transform: scale(1.1) translate(-3%, -3%);
-
-
-}
-
-
-.nav_icons_container div:hover {
-    background-color: #c49c9c;
-
-    transition: 0.3s;
-}
-
-/* .content { 
-    padding: 20px;
-    background-color: #0e1013;
-    font-family: "Roboto";
-    font-size: 18px;
-    flex-grow: 1;
-    overflow-y: auto;
-}
- */
 
 footer {
     background-color: #282828;
@@ -325,13 +347,27 @@ footer {
         display: none !important;
     }
 
-    
+    .hero-section {
+        flex-grow: 1;
+        overflow-y: auto;
+        /* height: 100vh; */
+        padding-left: 0px;
+    }
+
+
 
 }
 
 @media screen and (min-width:768px) {
     #mobile-navbar {
         display: none !important;
+    }
+
+    .hero-section {
+        flex-grow: 1;
+        overflow-y: auto;
+        /* height: 100vh; */
+        padding-left: 280px;
     }
 
 
