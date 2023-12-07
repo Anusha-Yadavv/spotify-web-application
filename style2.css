@@ -156,6 +156,10 @@ body {
     margin-top: 30px;
 }
 
+.back-button {
+    color: white;
+}
+
 .album p {
     color: #B3B3B3;
 }
@@ -259,7 +263,7 @@ footer {
 }
 
 /* .album-profile-container { */
-    /* padding-top: 70px; 
+/* padding-top: 70px; 
 
 }*/
 
@@ -348,6 +352,24 @@ footer {
 
 .footer-song-name {
     font-size: 10px;
+}
+
+.a {
+    animation: neon 1s ease infinite;
+}
+
+@keyframes neon {
+
+    0%,
+    100% {
+        text-shadow: 0 0 10px #ffffffa8, 0 0 20px #cced00, 0 0 20px #cced00a8, 0 0 20px #cced00, 0 0 2px #f0efec, 2px 2px 2px #806914;
+        color: #f5efcb;
+    }
+
+    50% {
+        text-shadow: 0 0 2px #f1efef, 0 0 5px #fdfafa, 0 0 5px #fdfbfb, 0 0 5px #800e0b, 0 0 2px #800e0b, 4px 4px 2px #40340a;
+        color: rgb(255, 255, 255);
+    }
 }
 
 @media screen and (max-width:768px) {
