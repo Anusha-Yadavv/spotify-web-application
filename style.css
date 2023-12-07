@@ -341,7 +341,12 @@ footer {
     }
 
     .heading {
-        display: none !important;
+        /* display: none !important; */
+        font-size: 12px !important;
+    }
+
+    .like {
+        font-size: 18px !important;
     }
 
     .right {

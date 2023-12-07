@@ -411,6 +411,11 @@ footer {
 
     }
 
+    .back-button {
+        padding-right: 15px;
+
+    }
+
     .playlist-item span {
         display: none !important;
     }
